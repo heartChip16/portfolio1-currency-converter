@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     padding: 20px;
     margin: 10px;
@@ -7,9 +11,9 @@ body {
 .container {
     border-radius: 10px;
     border: 1px solid teal;
-    margin-left: 28%; 
-    margin-right: 28%;
-    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
     padding: 0px 20px 20px 30px;
     justify-content: center;
     align-items: center;
