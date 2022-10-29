@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         .then(data =>{
             console.log(data);
             let {info, date, query:{to}, result} =  data;   //available from server response: success, query, info, date
-            document.querySelector(".result").innerHTML = `<b id="from-value">${from.value.toUpperCase()} ${amount.valueAsNumber.toFixed(2)}  =  </b><b id="final-result">${to} ${result.toFixed(2)}.</b>`;
+            document.querySelector(".result").innerHTML = `<b id="from-value">${from.value.toUpperCase()} ${amount.valueAsNumber.toFixed(2)}  =  </b><b id="final-result">${to} ${result.toFixed(2)}</b>`;
         })
         .catch(error => console.log('error', error));
     })
