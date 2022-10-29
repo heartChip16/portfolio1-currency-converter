@@ -1,0 +1,60 @@
+body {
+    padding: 20px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.container {
+    border-radius: 10px;
+    border: 1px solid teal;
+    margin-left: 28%; 
+    margin-right: 28%;
+    height: 64vh;
+    padding: 0px 20px 20px 30px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    box-shadow: 16px 16px 21px -14px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 16px 16px 21px -14px rgba(0,0,0,0.21);
+    -moz-box-shadow: 16px 16px 21px -14px rgba(0,0,0,0.21);
+    background-color: #67bde6;
+}
+
+form#currency-converter {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+h1#app-title {
+    text-align: center;
+}
+
+input,select {
+    margin: 5px;
+    padding: 0px;
+    grid-column: 3 / span 2;
+    border-radius: 3px;
+    border: 1px solid teal;
+}
+
+button.submit {
+  grid-column: 2/span 2;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid teal;
+}
+
+#final-result, #from-value {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
+
+label {
+    grid-column: 1 / span 1;
+}

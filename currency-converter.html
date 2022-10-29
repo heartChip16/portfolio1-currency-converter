@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="app-title">Currency Converter</h1>
+      <form action="" id="currency-converter">
+        <label for="from">From</label>
+        <select id="from" name="from">
+          <!-- <option value="PHP">PHP</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option> -->
+        </select>
+        <label for="to">To</label>
+        <select id="to" name="to">
+          <!-- <option value="PHP">PHP</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option> -->
+        </select>
+        <label for="amount">Amount</label>
+        <input type="number" name="amount" id="amount" />
+        <button class="submit" type="submit">Convert</button>
+      </form>
+      <p class="result"></p>
+    </div>
+  </body>
+</html>
