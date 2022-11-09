@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
     let myHeaders = new Headers();
-    myHeaders.append("apikey", "uM1qXhFzy1o5R7w2hgVfrHMJyZWNl9bz");
+    myHeaders.append("apikey", "Ml3u5bKF9QzO2vw1L32UXTTTDmodwPcT");
 
     const requestOptions = {
         method: 'GET', //requesting some data    (other possible: put, delete, post)
