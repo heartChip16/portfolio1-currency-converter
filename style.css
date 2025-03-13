@@ -72,3 +72,9 @@ label {
     align-self: center;
     /* color: white; */
 }
+
+.name-tag {
+    font-size: 11px;
+    margin-top: 5px;
+    color: white
+}
